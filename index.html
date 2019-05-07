@@ -1,18 +1,22 @@
-<h1> Song Title & Artist Name <h1>
+
+ <h1>Verse/Chorus/Bridge/Intro/Outro/Prechorus<h1>
   
-<h1>Genre<h1>
-  
-  <select name="Select1" size="1" id="ddlCars">
- <option value="">- Please select a name -</option>
- <option value"volvo">Volvo</option>
- <option value="saab">Saab</option>
- <option value="ford">Ford</option>
- <option value="toyota">Toyota</option>
- <option value="aston">Aston Martin</option>
- <option value="alfa">Alfa Romeo</option>
- </select>
-  
-<h1>Verse/Chorus/Bridge/Intro/Outro/Prechorus<h1>
+<form action="/action.php" method="post">
+  Song Title & Artist Name: 
+<input name="name" type="text" maxlength="100"/> 
+  <br /> 
+  Genre: 
+  <input type="text" maxlength="100"/> 
+  <br />
+  Which Part of Song
+<input name="part" type="text" maxlength="100"/>
+<br /> 
+  Instrument Used
+<input name="description" type="text" maxlength="100"/> 
+  <br /> 
+  Description
+<input name="description" type="text" maxlength="100"/> 
+ <br /> <input type="submit" value="Submit" /></form>
   
   
   
